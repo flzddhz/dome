@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/src/lib/httpclient-cache-4.5.3.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/lib/httpclient-win-4.5.3.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/lib/httpcore-4.4.6.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/lib/httpmime-4.5.13.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/lib/httpmime-4.5.3.jar" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

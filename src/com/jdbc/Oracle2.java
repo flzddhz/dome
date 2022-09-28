@@ -20,9 +20,14 @@ public class Oracle2 {
     //    static final String USER = "v3xuser";
 //    static final String PASSWORD = "v3xuser";
     //    static final String DB_URL = "jdbc:oracle:thin:@10.1.100.170:1521/OAPROD";
-    static final String USER = "apps";
-    static final String PASSWORD = "apps";
-    static final String DB_URL = "jdbc:oracle:thin:@jmerp.suntakpcb.com:1526/TEST2";
+
+//    static final String USER = "apps";
+//    static final String PASSWORD = "apps";
+//    static final String DB_URL = "jdbc:oracle:thin:@jmerp.suntakpcb.com:1526/TEST2";
+
+    static final String USER = "tms2erp";
+    static final String PASSWORD = "tms2erp";
+    static final String DB_URL = "jdbc:oracle:thin:@(description=(address_list=(address=(host=10.1.100.31)(protocol=tcp)(port=1521))(address=(host=10.1.100.32)(protocol=tcp)(port=1521))(load_balance=yes)(failover=yes))(connect_data=(service_name=PROD)))";
 
     public static void main(String[] args){
         Connection conn = null;
