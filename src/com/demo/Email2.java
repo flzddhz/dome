@@ -4,9 +4,9 @@ public class Email2 {
     
     public static void main(String[] args) {
         String FACTORY = "SUNTAK_江门崇达HDI厂";
-        String P_DATE_FROM = "2022-07-06";
-        String P_DATE_TO = "2022-07-06";
-        String CUST_NO = "'01585'";
+        String P_DATE_FROM = "2021-07-06";
+        String P_DATE_TO = "2021-07-06";
+        String CUST_NO = "'00068'";
         String sql=
                 " Select ou1.Name L_ORG, "+
                         "        ou2.Name S_ORG, "+

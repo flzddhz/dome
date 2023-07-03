@@ -15,12 +15,12 @@ public class FileIO {
             String filepath = "C:\\Users\\sluo\\Desktop\\1.txt";
             String filepath2 = "C:\\Users\\sluo\\Desktop\\2.txt";
             String filepath3 = "C:\\Users\\sluo\\Desktop\\3.txt";
-            String fileUrl = "http://oa.suntakpcb.com:8080/oa_file/2022/09/22/2618767841380354440?file_name='新建 Microsoft Excel 工作表.xlsx'";
-            HttpURLConnection httpUrl = (HttpURLConnection) new URL(fileUrl).openConnection();
-            httpUrl.connect();
-            InputStream inputStream = httpUrl.getInputStream();
+//            String fileUrl = "http://oa.suntakpcb.com:8080/oa_file/2022/09/22/2618767841380354440?file_name='新建 Microsoft Excel 工作表.xlsx'";
+//            HttpURLConnection httpUrl = (HttpURLConnection) new URL(fileUrl).openConnection();
+//            httpUrl.connect();
+//            InputStream inputStream = httpUrl.getInputStream();
 //            System.out.println(file.getName());
-            String file2 = "C:\\Users\\sluo\\Desktop\\新建 Microsoft Excel 工作表2.xlsx";
+            String file2 = "C:\\Users\\sluo\\Desktop\\test.msg";
 
 
             StringBuffer sb = new StringBuffer();
@@ -38,7 +38,7 @@ public class FileIO {
             FileBody fileBody = new FileBody(new File(filepath));
 
             int i = 0;
-            while ((i = inputStream.read(bb)) != -1) {
+//            while ((i = inputStream.read(bb)) != -1) {
                 fos.flush();
                 fos.write(bb);
                 for (byte b:bb) {
@@ -47,7 +47,7 @@ public class FileIO {
                 }
                 System.out.println(sb);
 //                writer.write();
-            }
+//            }
 
 //            while ((i = bfis.read(bb,i,2048)) != -1) {
 //                fos.flush();
@@ -56,7 +56,7 @@ public class FileIO {
 
 //            fis.close();
             fos.close();
-            inputStream.close();
+//            inputStream.close();
 
 //            System.out.println(fis.toString());
         } catch (Exception e) {

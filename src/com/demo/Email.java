@@ -3,7 +3,7 @@ package com.demo;
 public class Email {
     public static void main(String[] args) {
         //必须要使用apps用户执行
-        String P_DATE = "2022-07-08";                       //1-11
+        String P_DATE = "2022-08-22";                       //1-11
 //        String FACTORY = "SUNTAK_江门崇达HDI厂";
 //        String FACTORY = "SUNTAK_珠海崇达一厂";
 //        String FACTORY = "SUNTAK_珠海一厂";
